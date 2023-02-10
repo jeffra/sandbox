@@ -31,7 +31,9 @@ body:
         - Training
         - Inference
         - Compression
-
+    validations:
+      required: true
+      
 # name: Bug Report
 # description: File a bug report
 # title: "[Bug]: "
