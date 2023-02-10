@@ -4,7 +4,6 @@ title: "[Bug]: "
 labels: ["bug"]
 
 body:
-
   - type: textarea
     id: what-happened
     attributes:
@@ -14,13 +13,11 @@ body:
       value: ""
     validations:
       required: true
-
   - type: textarea
     id: repro
     attributes:
       label: Steps to reproduce
       description: If possible, please provide a script that can reproduce the issue.
-
   - type: dropdown
     id: feature
     attributes:
@@ -33,7 +30,6 @@ body:
         - Compression
      validations:
       required: true
-
   - type: textarea
     id: dsreport
     attributes:
@@ -52,6 +48,6 @@ body:
       * (if applicable) Hugging Face Transformers/Accelerate/etc. versions
       * Python version
       * Any other relevant info about your setup
-     validations:
+    validations:
       required: true
 
