@@ -1,5 +1,5 @@
 ---
-name: Bug report (training)
+name: Training Bug report
 about: Create a DeepSpeed training related issue to help us improve
 title: "[BUG]"
 labels: bug,training
