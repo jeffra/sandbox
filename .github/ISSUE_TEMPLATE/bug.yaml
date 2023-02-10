@@ -4,53 +4,87 @@ title: "[Bug]: "
 labels: ["bug"]
 
 body:
+
   - type: textarea
     id: what-happened
     attributes:
       label: Bug description
       description:  Please describe what the bug is and what you expected to happen.
-      placeholder: A clear and concise description of what the bug is.
-      value: ""
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
-      
-#   - type: textarea
-#     id: repro
-#     attributes:
-#       label: Steps to reproduce
-#       description: If possible, please provide a script that can reproduce the issue.
-      
-#   - type: dropdown
-#     id: feature
-#     attributes:
-#       label: Feature
-#       description: What area of DeepSpeed does this bug relate to?
-#       options:
-#         - Not sure
-#         - Training
-#         - Inference
-#         - Compression
-#      validations:
-#       required: true
-      
-#   - type: textarea
-#     id: dsreport
-#     attributes:
-#       label: Output from ds_report
-#       description: Please run ds_report to give us details about your setup.
 
-#   - type: markdown
-#     id: system
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: If possible, please provide a script that can reproduce the issue.
+
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Feature
+      description: What area of DeepSpeed does this bug relate to?
+      options:
+        - Not sure (Default)
+        - Training
+        - Inference
+        - Compression
+
+# name: Bug Report
+# description: File a bug report
+# title: "[Bug]: "
+# labels: ["bug"]
+
+# body:
+#   - type: textarea
+#     id: what-happened
 #     attributes:
-#       label: System info
-#       description: If possible, please provide a script that can reproduce the issue.
-#       placeholder: |
-#       * OS: [e.g. Ubuntu 18.04]
-#       * GPU count and types [e.g. two machines with x8 A100s each]
-#       * (if applicable) what DeepSpeed-MII version are you using
-#       * (if applicable) Hugging Face Transformers/Accelerate/etc. versions
-#       * Python version
-#       * Any other relevant info about your setup
+#       label: Bug description
+#       description:  Please describe what the bug is and what you expected to happen.
+#       placeholder: A clear and concise description of what the bug is.
+#       value: ""
 #     validations:
 #       required: true
+      
+# #   - type: textarea
+# #     id: repro
+# #     attributes:
+# #       label: Steps to reproduce
+# #       description: If possible, please provide a script that can reproduce the issue.
+      
+# #   - type: dropdown
+# #     id: feature
+# #     attributes:
+# #       label: Feature
+# #       description: What area of DeepSpeed does this bug relate to?
+# #       options:
+# #         - Not sure
+# #         - Training
+# #         - Inference
+# #         - Compression
+# #      validations:
+# #       required: true
+      
+# #   - type: textarea
+# #     id: dsreport
+# #     attributes:
+# #       label: Output from ds_report
+# #       description: Please run ds_report to give us details about your setup.
+
+# #   - type: markdown
+# #     id: system
+# #     attributes:
+# #       label: System info
+# #       description: If possible, please provide a script that can reproduce the issue.
+# #       placeholder: |
+# #       * OS: [e.g. Ubuntu 18.04]
+# #       * GPU count and types [e.g. two machines with x8 A100s each]
+# #       * (if applicable) what DeepSpeed-MII version are you using
+# #       * (if applicable) Hugging Face Transformers/Accelerate/etc. versions
+# #       * Python version
+# #       * Any other relevant info about your setup
+# #     validations:
+# #       required: true
 
