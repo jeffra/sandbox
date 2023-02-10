@@ -40,12 +40,12 @@ body:
       label: System info
       description: If possible, please provide a script that can reproduce the issue.
       placeholder: |
-      * OS: [e.g. Ubuntu 18.04]
-      * GPU count and types [e.g. two machines with x8 A100s each]
-      * (if applicable) what DeepSpeed-MII version are you using
-      * (if applicable) Hugging Face Transformers/Accelerate/etc. versions
-      * Python version
-      * Any other relevant info about your setup
+        1. OS: [e.g. Ubuntu 18.04]
+        2. GPU count and types [e.g. two machines with x8 A100s each]
+        3. (if applicable) what DeepSpeed-MII version are you using
+        4. (if applicable) Hugging Face Transformers/Accelerate/etc. versions
+        5. Python version
+        6. Any other relevant info about your setup
     validations:
       required: true
 
