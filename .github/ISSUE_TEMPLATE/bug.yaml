@@ -21,15 +21,14 @@ body:
       label: Steps to reproduce
       description: If possible, please provide a script that can reproduce the issue.
 
-
-
   - type: dropdown
     id: feature
     attributes:
       label: Feature
       description: What area of DeepSpeed does this bug relate to?
       options:
-        - Not sure (Default)
         - Training
         - Inference
         - Compression
+        - Other
+      required: true
