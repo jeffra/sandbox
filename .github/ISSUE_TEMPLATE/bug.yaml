@@ -20,24 +20,24 @@ body:
 #       label: Steps to reproduce
 #       description: If possible, please provide a script that can reproduce the issue.
       
-  - type: dropdown
-    id: feature
-    attributes:
-      label: Feature
-      description: What area of DeepSpeed does this bug relate to?
-      options:
-        - Not sure
-        - Training
-        - Inference
-        - Compression
-     validations:
-      required: true
+#   - type: dropdown
+#     id: feature
+#     attributes:
+#       label: Feature
+#       description: What area of DeepSpeed does this bug relate to?
+#       options:
+#         - Not sure
+#         - Training
+#         - Inference
+#         - Compression
+#      validations:
+#       required: true
       
-  - type: textarea
-    id: dsreport
-    attributes:
-      label: Output from ds_report
-      description: Please run ds_report to give us details about your setup.
+#   - type: textarea
+#     id: dsreport
+#     attributes:
+#       label: Output from ds_report
+#       description: Please run ds_report to give us details about your setup.
 
 #   - type: markdown
 #     id: system
