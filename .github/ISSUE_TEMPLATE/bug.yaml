@@ -13,11 +13,13 @@ body:
       value: ""
     validations:
       required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Steps to reproduce
-      description: If possible, please provide a script that can reproduce the issue.
+      
+#   - type: textarea
+#     id: repro
+#     attributes:
+#       label: Steps to reproduce
+#       description: If possible, please provide a script that can reproduce the issue.
+      
   - type: dropdown
     id: feature
     attributes:
@@ -30,6 +32,7 @@ body:
         - Compression
      validations:
       required: true
+      
   - type: textarea
     id: dsreport
     attributes:
