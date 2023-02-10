@@ -34,18 +34,14 @@ body:
     validations:
       required: true
       
-  - type: markdown
+  - type: textarea
     id: system
     attributes:
       label: System info
       description: If possible, please provide a script that can reproduce the issue.
-      placeholder: |
-        1. OS: [e.g. Ubuntu 18.04]
-        2. GPU count and types [e.g. two machines with x8 A100s each]
-        3. (if applicable) what DeepSpeed-MII version are you using
-        4. (if applicable) Hugging Face Transformers/Accelerate/etc. versions
-        5. Python version
-        6. Any other relevant info about your setup
+      value: |
+        1. OS: e.g. Ubuntu 18.04
+        ...
     validations:
       required: true
 
