@@ -36,18 +36,18 @@ body:
       label: Output from ds_report
       description: Please run ds_report to give us details about your setup.
 
-  - type: markdown
-    id: system
-    attributes:
-      label: System info
-      description: If possible, please provide a script that can reproduce the issue.
-      placeholder: |
-      * OS: [e.g. Ubuntu 18.04]
-      * GPU count and types [e.g. two machines with x8 A100s each]
-      * (if applicable) what DeepSpeed-MII version are you using
-      * (if applicable) Hugging Face Transformers/Accelerate/etc. versions
-      * Python version
-      * Any other relevant info about your setup
-    validations:
-      required: true
+#   - type: markdown
+#     id: system
+#     attributes:
+#       label: System info
+#       description: If possible, please provide a script that can reproduce the issue.
+#       placeholder: |
+#       * OS: [e.g. Ubuntu 18.04]
+#       * GPU count and types [e.g. two machines with x8 A100s each]
+#       * (if applicable) what DeepSpeed-MII version are you using
+#       * (if applicable) Hugging Face Transformers/Accelerate/etc. versions
+#       * Python version
+#       * Any other relevant info about your setup
+#     validations:
+#       required: true
 
