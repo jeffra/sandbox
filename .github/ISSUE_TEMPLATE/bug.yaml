@@ -31,4 +31,5 @@ body:
         - Inference
         - Compression
         - Other
+    validations:
       required: true
