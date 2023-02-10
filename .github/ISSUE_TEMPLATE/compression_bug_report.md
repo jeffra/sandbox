@@ -1,5 +1,5 @@
 ---
-name: Bug report (compression)
+name: Compression Bug report
 about: Create a DeepSpeed compression related issue to help us improve
 title: "[BUG]"
 labels: bug,compression
